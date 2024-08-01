@@ -1,0 +1,27 @@
+
+.checkbox-size {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 10px ;
+}
+
+.checkbox-size input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 20px;
+}
+
+.checkboxInput{
+    display: inline;
+}
+
+.col-form-label.required:after,
+label.required:after {
+    content: "*";
+    color: #e95b35;
+}
+
+.header-navbar .navbar-header .navbar-brand .brand-logo {
+    width: auto;
+    max-width: 100%;
+}
